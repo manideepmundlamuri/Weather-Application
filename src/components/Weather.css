@@ -1,0 +1,73 @@
+.weather {
+    place-self: center;
+    padding: 40px;
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.search-box input {
+    height: 40px;
+    padding: 20px;
+    color: #626262;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-box img {
+    background-color: #fff;
+    padding: 10px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.weather-icon{
+    width: 200px;
+    padding: 20px;
+}
+.teamperature{
+    font-size: 60px;
+    line-height: 1;
+    color: #fff;
+}
+.location{
+    font-size: 35px;
+    color: #fff;
+    font-variant:small-caps;
+    font-weight: 500;
+}
+.weather-report{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.weather-report .col{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.weather-report .col img{
+    width: 30px;
+}
+.weather-report .col p{
+    color: yellow;
+}
+.weather-report .col span{
+    color: yellow;
+}
